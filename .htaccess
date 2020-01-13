@@ -1,0 +1,4 @@
+Options +Indexes 
+# or #
+IndexOptions +FancyIndexing
+IndexIgnore creds.html
